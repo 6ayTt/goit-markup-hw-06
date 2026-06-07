@@ -1,0 +1,66 @@
+body{
+    background-color: #fff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    padding: 0px;
+    margin: 0px;
+}
+
+ol,
+ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    padding: 0px;
+}
+
+img{
+    display: block;
+}
+
+button{
+    padding: 0;
+}
+
+.section-header{
+    line-height: 1.111;
+    font-weight: 700;
+}
+
+.content-header{
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+.container {
+    max-width: 320px;
+    margin: auto;
+    padding:  0 16px;
+}
+    
+.sr-only {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    margin: -1px;
+}
