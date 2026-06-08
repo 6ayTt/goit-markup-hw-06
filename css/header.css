@@ -49,21 +49,8 @@
 
 @media screen and (min-width: 768px) {
 
-    .header-container {
-        justify-content: flex-end;
-    
-    }
-
-    .link-logo{
-        padding-right: 120px;
-    }
-
     .phone-burger-menu-btn {
         display: none;
-    }
-
-   .header-navigation-contacts-place  {
-        display: flex;
     }
 
     .nav-list {
@@ -148,8 +135,8 @@
 
     .header-container {
         padding: 0 15px;
-        justify-content: flex-start;
         min-width: 1158px;
+        justify-content: flex-start;
     }
 
     .link-logo{

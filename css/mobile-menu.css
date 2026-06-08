@@ -95,6 +95,7 @@
     font-size: 20px;
     letter-spacing: 0.02em;
     line-height: 1.2;
+    font-style: normal;
     color: #434455;
     transition-property: color;
     transition-duration: 250ms;
