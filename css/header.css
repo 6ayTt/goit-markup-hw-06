@@ -25,7 +25,8 @@
     padding: 16px 0;
 }
 
-.header-navigation-contacts-place {
+.page-nav,
+.address-contacts {
     display: none;
 }
 
@@ -49,16 +50,26 @@
 
 @media screen and (min-width: 768px) {
 
+    .header-container{
+        justify-content: flex-start;
+    }
+
+    .link-logo{
+        padding: 0 120px 0 0;
+    }
+
     .phone-burger-menu-btn {
         display: none;
     }
 
+    .page-nav{
+        display: flex;
+    }
     .nav-list {
         display: flex;
         align-items: center;
         gap: 40px;
         padding: 24px 0;
-        padding-right: 129px;
     }
 
     .active-link{
@@ -100,6 +111,7 @@
     .address-contacts {
         display: flex;
         align-items: center;
+        margin-left: auto;
     }
 
     .list-contact {
